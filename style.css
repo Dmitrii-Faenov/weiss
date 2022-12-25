@@ -1,0 +1,73 @@
+@import "reset.css";
+
+@font-face {
+    font-family: DINPro;
+    src: url(fonts/dinpro/dinpro.otf);
+}
+
+@font-face {
+    font-family: DINPro;
+    src: url(fonts/dinpro/dinpro_medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: DINPro;
+    src: url(fonts/dinpro/dinpro_bold.otf);
+    font-weight: 700;
+}
+
+* {
+    /* border: 1px solid beige; */
+}
+
+body {
+    font-family: DINPro, sans-serif;
+}
+
+.nav {
+    margin: 64px 0 96px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.logo {
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__item {}
+
+.menu__item:not(:last-child) {
+    margin: 0 40px 0 0;
+}
+
+.menu__item-link {
+    color: #263640;
+}
+
+.menu__item-link:link {}
+
+.menu__item-link:visited {}
+
+.menu__item-link:hover {
+    color: #ff9900;
+}
+.menu__item-link:focus {}
+
+.menu__item-link:active {}
+
+.btn {
+    color: #fff;
+    background-color: #ff9900;
+}
+
+.btn_mail-icon {}
